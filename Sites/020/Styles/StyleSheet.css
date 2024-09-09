@@ -1,0 +1,443 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    top: 0 !important;
+    position: relative;
+}
+
+.contato-master {
+    padding: 20px;
+    background-image: url("https://www.c2tiapps.com/Sites/020/Imagens/contato.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.barra_paginas_internas {
+    padding-top: 20px !important;
+}
+
+h1, h2, h3, h4, h5, h6, .barra_paginas_internas {
+    font-family: Montserrat, sans-serif !important;
+}
+
+    .barra_paginas_internas:before, .barra_paginas_internas_inferior:before {
+        background-color: #255C77;
+    }
+
+.carousel-control.left {
+    background-image: none !important;
+    filter: initial;
+}
+
+.carousel-control.right {
+    background-image: none !important;
+    filter: initial;
+}
+
+.barra_paginas_internas:before {
+    content: " ";
+    position: absolute;
+    width: 74px;
+    height: 4px;
+    background-color: #292828;
+    left: 0px;
+    bottom: -3px;
+}
+
+.navbar {
+    border-radius: 0px !important;
+    margin: 0;
+    border: 0;
+}
+
+/*############ GERAL*/
+.img-transicao {
+    background-image: url("https://www.c2tiapps.com//Repositorio/631/Slides/8582faee-9.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.h3-form {
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+.conteudo_container {
+    padding: 50px 0 !important;
+}
+
+@media (max-width : 1002px ) {
+    .conteudo_container {
+        padding: 10px 0 !important;
+    }
+}
+
+@media (min-width : 1002px ) {
+
+
+
+    .contato-master .campo {
+        padding: 85px 0;
+        text-align: left;
+        margin-right: 0%;
+        max-width: 35%;
+    }
+}
+
+
+.contato-master input, .contato-master button {
+    border-radius: 5px;
+    min-height: 70px;
+    min-width: 200px;
+}
+
+.footer-contato td {
+    padding: 3px;
+}
+
+.copy {
+    margin-top: 41px;
+    font-size: 12px;
+}
+
+
+/* ########################### Link para ir topo*/
+.link_topo {
+    background-color: #337ab7;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    z-index: 1;
+}
+
+    .link_topo:hover {
+        cursor: pointer;
+    }
+
+    .link_topo > div {
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+
+        .link_topo > div > a {
+            display: block;
+            margin: auto;
+            font-size: 20px;
+            color: #fff;
+            transition: 1s;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+/*########################################## Barra acima*/
+
+
+
+
+
+.bandeiras_top, .social-list-items {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.header_barra_acima {
+    background-color: #212121;
+    padding: 0px 0;
+    font-size: 14px;
+}
+
+.header_barra_acima_esq {
+    text-align: left;
+    padding: 4px;
+}
+
+    .header_barra_acima_esq p {
+        color: #a9a9a9;
+        margin: 0;
+        font-size: 12px;
+    }
+
+        .header_barra_acima_esq p i {
+            font-size: 14px;
+            margin-right: 5px;
+            margin-left: 20px;
+        }
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff !important;
+}
+
+.header_barra_acima_dir {
+    font-size: 19px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+    .header_barra_acima_dir ul {
+        margin: 0;
+    }
+
+    .header_barra_acima_dir li {
+        display: inline;
+        margin-left: 5px;
+    }
+
+/*########################### Header Principal*/
+.header {
+    position: relative;
+}
+
+.header_menu, .banner {
+    position: absolute;
+    width: 100%;
+}
+
+.menuMobile {
+    justify-content: end!important;
+}
+
+.header_menu {
+    z-index: 1;
+}
+
+.banner {
+    z-index: 0;
+}
+
+.header_menu .menu-horizontal > ul > li {
+    display: inline-block !important;
+    margin-left: 0;
+}
+
+    .header_menu .menu-horizontal > ul > li > a {
+        background-color: rgba(255,255,255,0) !important;
+    }
+
+
+.header_menu .menu-horizontal nav.menu-horizontal {
+    text-align: right;
+}
+
+.header_menu .menu-horizontal a {
+    font-size: 15px;
+    padding: 5px 19px 5px 0;
+}
+
+.header_menu .menu-horizontal .dropdown-menu a {
+    padding: 15px 19px;
+}
+
+.header_menu .menu-horizontal a:hover {
+    text-decoration: none;
+}
+
+.header_menu .menu-horizontal > ul {
+    /*display: inline-block;*/
+    float: right !important;
+    position: relative;
+    margin-top: 4px;
+}
+
+    .header_menu .menu-horizontal > ul > li > ul.dropdown-menu li a:hover {
+        background: none !important;
+    }
+
+    .header_menu .menu-horizontal > ul > li > ul.dropdown-menu {
+        background-color: #fff;
+    }
+
+        .header_menu .menu-horizontal > ul > li > ul.dropdown-menu li:hover {
+            background-color: #f7f7f7;
+        }
+
+        .header_menu .menu-horizontal > ul > li > ul.dropdown-menu li a {
+            color: #000;
+        }
+
+            .header_menu .menu-horizontal > ul > li > ul.dropdown-menu li a:hover {
+                color: #333;
+            }
+
+.header_menu .col-menu {
+    display: flex;
+}
+
+    .header_menu .col-menu nav {
+        align-self: center;
+        display: block;
+        width: 100%;
+    }
+/*############################################### Menu principal 0*/
+.header_0 .menu-horizontal > ul {
+    transition: 1s;
+}
+
+.header_0 {
+    padding: 15px;
+    padding-bottom: 15px !important;
+    background: linear-gradient(rgba(33,33,33,1), rgba(33,33,33,0.9),rgba(33,33,33,0.7),rgba(33,33,33,0));
+    box-shadow: 0px 10px 9px -8px rgba(0,0,0,0.15);
+    transition: 1s;
+}
+
+    .header_0, .header_0 * {
+        transition: .3s;
+    }
+
+        .header_0 img {
+            max-height: 110px;
+            max-width: 100%;
+        }
+
+        .header_0 .col-md-9 {
+            height: 110px;
+            position: relative;
+        }
+
+/*############################################### Menu principal 1*/
+.header_1 {
+    padding: 5px;
+    background: rgba(33,33,33,1);
+    transition: .3s;
+    position: fixed;
+    top: 0;
+    z-index: 16;
+    max-height: 60px;
+    box-shadow: 0px 10px 10px -10px rgba(8, 8, 8, 0.35);
+}
+
+    .header_1 .col {
+        height: 50px;
+    }
+
+    .header_1, .header_1 * {
+        transition: .3s;
+    }
+
+        .header_1 img {
+            max-height: 50px;
+        }
+
+        .header_1 .col-md-8 {
+            height: 50px;
+            position: relative;
+        }
+
+        .header_1 .menu-horizontal ul {
+            margin-top: 4px;
+        }
+
+
+/*################### banner*/
+#carousel-main-website {
+    box-shadow: 0px 10px 13px -3px rgba(8, 8, 8, 0.35);
+}
+/*################### footer*/
+.footer li {
+    list-style-type: none;
+}
+
+.footer-logo {
+    padding: 35px 0;
+}
+
+.footer {
+    background-color: #f8f8f8;
+    padding-top: 30px;
+    line-height: 1.5em;
+    font-size: 12px;
+}
+
+    .footer h3 {
+        border-bottom: 1px solid #EEE;
+        padding-bottom: 10px;
+    }
+
+.menu_rodape {
+    font-size: 20px;
+    line-height: 3em;
+}
+
+.menu_rodape_itens li a {
+}
+
+.barra_ferramentas {
+    margin: 35px 0 0 0 !important;
+}
+
+
+/*CÓDIGO DE COLAPSO*/
+
+@media (max-width: 1024px) {
+
+    .navbar {
+        background-color: rgba(33,33,33,1);
+    }
+
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+
+        .navbar-collapse.collapse {
+            display: none !important;
+        }
+
+    .navbar-nav {
+        float: none !important;
+        margin: 7.5px -15px;
+    }
+
+        .navbar-nav > li {
+            float: none;
+        }
+
+            .navbar-nav > li > a {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+
+    /*.collapsing {
+        overflow: hidden!important;
+    }*/
+}
+
+
+/* REDES SOCIAIS RODAPÉ */
+
